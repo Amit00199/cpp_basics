@@ -6,6 +6,7 @@ using namespace std;
 
 int main() {
 
+    vector<int> arr = {1, 2, 3, 4, 5};
     vector<int> temp; //declaration of array
     int s_temp = temp.size(); //gives size of vector
     temp.push_back(69); //adding elements to vector

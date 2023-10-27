@@ -54,6 +54,8 @@ int main() {
 
     delete[] pe; //once the array is no longer needed, the memory is deallocated using delete
                 //using [] after delete represents that the memory deallocation is of an array
+    pe = NULL; //this is a good practice to avoid pointing to an address thats no longer being used by us
+                //this means that now the array is not pointing to anything
 
     return 0;
 }

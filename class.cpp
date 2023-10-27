@@ -41,7 +41,7 @@ class Robot { //conventionally we start the name of a class with an uppercase
 
 int main ()
 {
-    Robot robot1("R2D2", 320112569); //instance of class - parameters from the constructor
+    Robot robot1("R2D2", 320112569); //creating an object of class - parameters from the constructor
     robot1.init_hardware();
     robot1.say_hi();
     robot1.print_info();

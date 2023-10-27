@@ -2,6 +2,13 @@
 
 using namespace std;
 
+void print (void* ptr, char type) { //void pointer is used when multiple type of pointers can be passes as parameters
+    switch(type) {  //the void pointer needs to be intialized with the pointer type before using
+        case 'i': *((int*) ptr); //first intialized the void pointer to int pointer - now dereference the pointer to get the value
+        case 'c': *((char*) ptr);//similary this handles char pointer
+    }
+}
+
 int main() {
     int a = 10;
     cout << "Address of variable: " << &a << endl; //'&'is used to give address of the variable
@@ -41,8 +48,5 @@ int main() {
     }
     cout << endl;
     
-
-
-
     return 0;
 }

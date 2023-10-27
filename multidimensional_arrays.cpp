@@ -2,8 +2,11 @@
 using namespace std;
 
 int main() {
+
+    // A 2-D array is a collection of 'rows' number of arrays, each containing 'cols' elements
+
     int  two_d[2][3] = {{2, 4, 5}, {9, 0, 19}}; //initializing a 2-D array - groups of 'j' elements 'i' times
-        
+    //data_type array_name[rows][columns];        
 
     int two_d_array[2][3]; //creating a 2-D array with inputs
 
